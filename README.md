@@ -45,7 +45,12 @@ I believe in *learning by doing*—building models, experimenting with datasets,
 - Day 06: Voting Classifier in Machine Learning
 - Day 07: Bagging Ensemble in Machine Learning
 - Day 08: Boosting Ensemble in Machine Learning
-- Day 09: Random Forest Classification With Hyperparameter Tuning
+- **Day 09:** Random Forest Classification  
+  - Hyperparameter tuning  
+  - Feature importance  
+  - Model evaluation metrics  
+  - OOB vs Cross-Validation performance and speed analysis with visualizations   
+
 (Updating daily 🚀)
 
 ## 🎯 Goal of This Repository
