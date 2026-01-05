@@ -1,0 +1,64 @@
+K-MEANS CLUSTERING ALGORITHM
+
+K-Means is an unsupervised machine learning algorithm used for clustering.
+It groups data points into K distinct clusters based on similarity.
+
+--------------------------------------------------
+KEY CONCEPTS
+--------------------------------------------------
+• Unsupervised Learning
+• Distance-based clustering
+• Iterative optimization
+• Centroid-based approach
+
+--------------------------------------------------
+STEP-BY-STEP ALGORITHM
+--------------------------------------------------
+Input:
+- Dataset X with n data points
+- Number of clusters K
+
+Output:
+- K clusters
+- Final centroids
+
+Steps:
+
+1. Choose the number of clusters K.
+2. Randomly select K data points as initial centroids.
+3. Assign each data point to the nearest centroid using Euclidean distance.
+4. Update centroids by calculating the mean of all points in each cluster.
+5. Repeat steps 3 and 4 until:
+   - Centroids do not change, OR
+   - Maximum number of iterations is reached.
+
+--------------------------------------------------
+DISTANCE METRIC
+--------------------------------------------------
+Euclidean Distance:
+d(x, y) = sqrt( (x1 - y1)^2 + (x2 - y2)^2 + ... )
+
+--------------------------------------------------
+ADVANTAGES
+--------------------------------------------------
+• Simple and easy to implement
+• Scales well to large datasets
+• Fast convergence
+
+--------------------------------------------------
+LIMITATIONS
+--------------------------------------------------
+• Requires predefined K
+• Sensitive to initial centroids
+• Performs poorly with non-spherical clusters
+• Sensitive to outliers
+
+--------------------------------------------------
+TIME COMPLEXITY
+--------------------------------------------------
+O(n × k × d × i)
+
+n = number of data points
+k = number of clusters
+d = dimensions
+i = iterations
